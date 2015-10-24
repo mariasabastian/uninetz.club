@@ -1,0 +1,4 @@
+---
+applications:
+- name: uninetz
+  memory: 1024M
