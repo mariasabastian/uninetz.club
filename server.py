@@ -1,10 +1,12 @@
 import os
-from flask import Flask, render_template, jsonify
 import logging
 import json
 import sys
+from flask import Flask, render_template, jsonify
+from flask.ext.bower import Bower
 
 app = Flask(__name__)
+Bower(app)
 
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.DEBUG)

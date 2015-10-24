@@ -58,3 +58,6 @@ target/
 
 # credentials
 services.json
+
+# bower
+bower_components/

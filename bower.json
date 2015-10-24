@@ -1,0 +1,25 @@
+{
+  "name": "uninetz.club",
+  "homepage": "https://github.com/mariasabastian/uninetz.club",
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.1",
+    "paper-button": "PolymerElements/paper-button#~1.0.8"
+  }
+}
