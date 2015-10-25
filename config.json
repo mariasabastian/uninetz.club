@@ -1,0 +1,7 @@
+{
+  "database": {
+    "name": "compose",
+    "schema": "uninetz"
+  },
+  "app_settings": "config.DevelopmentConfig"
+}
