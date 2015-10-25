@@ -1,5 +1,5 @@
-from shared import ma
-from data_models import Company, University, Professor, Course, Project, Skill, Student, Account
+from .shared import ma
+from .data_models import Company, University, Professor, Course, Project, Skill, Student, Account
 
 class SkillSchema(ma.ModelSchema):
   class Meta:

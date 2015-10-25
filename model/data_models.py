@@ -1,4 +1,4 @@
-from shared import db
+from .shared import db
 
 student_skill = db.Table(
     'student_skill', db.Model.metadata,
